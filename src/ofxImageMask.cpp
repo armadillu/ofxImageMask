@@ -24,7 +24,7 @@ void ofxImageMask::applyMask(ofImage mask, bool invert){
 		
 		if (getPixelsRef().getImageType() != OF_IMAGE_COLOR_ALPHA){
 			setImageType(OF_IMAGE_COLOR_ALPHA);
-			}
+		}
 		
 		if (mask.getPixelsRef().getImageType() != OF_IMAGE_GRAYSCALE){
 			mask.setImageType(OF_IMAGE_GRAYSCALE);
