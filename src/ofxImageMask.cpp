@@ -18,7 +18,7 @@ void ofxImageMask::applyMask(string maskImagePath, bool invert){
 }
 
 
-void ofxImageMask::applyMask(ofImage mask, bool invert){
+void ofxImageMask::applyMask(ofImage & mask, bool invert){
 	
 	if (getWidth() == mask.getWidth() && getHeight() && mask.getHeight() ){
 		

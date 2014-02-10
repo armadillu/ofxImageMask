@@ -18,7 +18,7 @@ public:
 	ofxImageMask():ofImage(){};
 
 	void applyMask(string maskImagePath, bool invert = false);	
-	void applyMask(ofImage mask, bool invert = false);		
+	void applyMask(ofImage & mask, bool invert = false);
 
 	//implementing copy ctr and operator to be able to mix with ofImage
 	ofxImageMask(const ofImage_& d): ofImage_(d) {}
